@@ -1,0 +1,127 @@
+{
+  "list": [
+    {
+      "id": 1,
+      "name": "张三",
+      "tel": "15223810923"
+    },
+    {
+      "id": 2,
+      "name": "李四",
+      "tel": "15223810923"
+    },
+    {
+      "id": 3,
+      "name": "王二",
+      "tel": "15223810923"
+    },
+    {
+      "id": 4,
+      "name": "陈五",
+      "tel": "15223810923"
+    },
+    {
+      "name": "赵六",
+      "tel": "123454323",
+      "id": 5
+    }
+  ],
+  "list2": [
+    {
+      "name": "abcde",
+      "tel": "123454323",
+      "id": 5
+    },
+    {
+      "id": 4,
+      "name": "你好2121",
+      "tel": "15223810923"
+    }
+  ],
+  "pageListData": [
+    {
+      "pid": "001",
+      "title": "会员消息通知",
+      "source": "您好，XXX，您已成功消费XXX元。",
+      "releaseTime": "2017-06-23",
+      "imageUrl": "http://219.234.5.196:9081/banner/zt29M2AjOVJ83Yjac4IQ5uzbn.jpg",
+      "sort":"1",
+      "logoff":1
+    },
+    {
+      "pid": "002",
+      "title": "预约成功通知",
+      "source": "您好，XXX，您已成功预约。",
+      "releaseTime": "",
+      "imageUrl": "http://219.234.5.196:9081/banner/Hq2FK97deyYWLqkb09ws52Ibn.jpg",
+      "sort":"3",
+      "logoff":2
+    },
+    {
+      "pid": "003",
+      "title": "健康指导提醒",
+      "source": "温馨提醒，宝宝3个月时需要体检。",
+      "releaseTime": "",
+      "imageUrl": "http://219.234.5.196:9081/banner/p8Uq0FlB3I3XweolOT7siGRbn.png",
+      "sort":"2",
+      "logoff":1
+    }
+  ],
+  "materialData": [
+    {
+      "pid": "001",
+      "name": "会员通知",
+      "imgsrc": "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+      "updateDate": "2017-9-1",
+      "content":"<p>您好，XXX:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;您已成功消费XXX元。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2017-09-19 15:26:30</p>"
+    },
+    {
+      "pid": "002",
+      "name": "预约通知",
+      "imgsrc": "",
+      "updateDate": "2017-9-2",
+      "content":"<p>您好，XXX:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;您已成功预约。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2017-09-19 15:26:30</p>"
+    
+    },
+    {
+      "pid": "003",
+      "name": "健康提醒",
+      "imgsrc": "/static/img/user.1a6e236.png",
+      "updateDate": "2017-9-3",
+      "content":"<p>您好，XXX:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;温馨提醒，宝宝3个月时需要体检。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2017-09-19 15:26:30</p>"
+    
+    },
+    {
+      "pid": "004",
+      "name": "会员通知",
+      "imgsrc": "",
+      "updateDate": "2017-9-4",
+      "content":"<p>您好，XXX:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;您已成功消费XXX元。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2017-09-19 15:26:30</p>"
+    
+    },
+    {
+      "pid": "005",
+      "name": "预约通知",
+      "imgsrc": "/static/img/user.1a6e236.png",
+      "updateDate": "2017-9-5",
+      "content":"<p>您好，XXX:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;您已成功预约。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2017-09-19 15:26:30</p>"
+    
+    },
+    {
+      "pid": "006",
+      "name": "健康提醒",
+      "imgsrc": "/static/img/hamburger.50e4091.png",
+      "updateDate": "2017-9-6",
+      "content":"<p>您好，XXX:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;温馨提醒，宝宝3个月时需要体检。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2017-09-19 15:26:30</p>"
+    
+    },
+    {
+      "pid": "007",
+      "name": "会员通知",
+      "imgsrc": "/static/img/user.1a6e236.png",
+      "updateDate": "2017-9-7",
+      "content":"<p>您好，XXX:</p><p>&nbsp;&nbsp;&nbsp;&nbsp;您已成功消费XXX元。</p><p>&nbsp;&nbsp;&nbsp;&nbsp;2017-09-19 15:26:30</p>"
+    
+    }
+  ]
+}
