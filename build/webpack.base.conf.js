@@ -4,7 +4,7 @@ const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
 const glob = require('glob');
-const entries = getEntry(['./src/module/*.js', './src/module/**/*.js']);
+const entries = getEntry(['./src/module/*.js', './src/module/**/main.js']);
 
 function resolve (dir) {
   return path.join(__dirname, '..', dir)
@@ -74,7 +74,8 @@ function getEntry(globPath) {
   }
   globPath.forEach((itemPath) => {
     glob.sync(itemPath).forEach(function (entry) {
-      basename = path.basename(entry, path.extname(entry));
+      //basename = path.basename(entry, path.extname(entry));
+      basename = path.basename(path.dirname(entry, path.extname(entry)));
       if (entry.split('/').length > 4) {
         tmp = entry.split('/').splice(-3);
         pathname = tmp.splice(0, 1) + '/' + basename; // 正确输出js和html的路径
