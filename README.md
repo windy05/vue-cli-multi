@@ -13,15 +13,15 @@ cd vue-cli-multi
 
 npm install
 
-#### 开发启动
+开发启动
 
 npm run dev
 
-#### 生产打包
+生产打包
 
 npm run build 
 
-#### mock服务启动
+mock服务启动
 
 npm run mock
 
@@ -49,7 +49,6 @@ npm run mock
 ├── .babelrc                                    
 ├── .postcssrc.js                               
 ├── package.json                                // 配置文件
-
 .
 
 
