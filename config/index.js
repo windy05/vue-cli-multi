@@ -39,5 +39,7 @@ module.exports = {
     // In our experience, they generally work as expected,
     // just be aware of this issue when enabling this option.
     cssSourceMap: false,
-  }
+  },
+  html : ['./src/module/*.html','./src/module/**/*.html'],
+  js : ['./src/module/*.js', './src/module/**/main.js']
 }

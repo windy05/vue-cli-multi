@@ -10,6 +10,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
 const OptimizeCSSPlugin = require('optimize-css-assets-webpack-plugin')
 const glob = require('glob');
+const pages = getEntry(config.html);
 const env = config.build.env
 
 const webpackConfig = merge(baseWebpackConfig, {
@@ -145,7 +146,7 @@ function getEntry(globPath) {
   return entries;
 }
 
-var pages = getEntry(['./src/module/*.html','./src/module/**/*.html']);
+
 
 for (var pathname in pages) {
   // 配置生成的html文件，定义路径等

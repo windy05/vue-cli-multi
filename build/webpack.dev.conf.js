@@ -8,7 +8,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const FriendlyErrorsPlugin = require('friendly-errors-webpack-plugin')
 const glob = require('glob')
 const path = require('path');
-const pages = getEntry(['./src/module/*.html','./src/module/**/*.html']);
+const pages = getEntry(config.html);
 
 // add hot-reload related code to entry chunks
 Object.keys(baseWebpackConfig.entry).forEach(function (name) {
