@@ -1,4 +1,4 @@
-# 前言
+# vue-cli-multi
 
 vue-cli是构建单页应用的脚手架,本项目通过修改webpackConfig实现多页应用。
 
@@ -50,7 +50,7 @@ npm run mock
 ├── .postcssrc.js                               
 ├── package.json                                // 配置文件
 .
-
+```
 
 # License
 
