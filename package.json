@@ -1,7 +1,7 @@
 {
   "name": "vue-cli-multi",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "vue-cli是构建单页应用的脚手架,本项目通过修改webpackConfig实现多页应用",
   "author": "Lunatic Clark <13760798@qq.com>",
   "private": true,
   "scripts": {
