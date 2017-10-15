@@ -22,6 +22,17 @@ const autoOpenBrowser = !!config.dev.autoOpenBrowser
 const proxyTable = config.dev.proxyTable
 
 const app = express()
+
+
+//server exit
+app.get('/exit', function (req, res) {
+  var uri = 'http://localhost:' + port
+  console.log('> Stop at ' + uri + '\n')
+  res.send('> Stop at ' + uri + '\n');
+  process.exit(0);
+})
+
+
 const compiler = webpack(webpackConfig)
 
 const devMiddleware = require('webpack-dev-middleware')(compiler, {
@@ -66,6 +77,8 @@ app.use(devMiddleware)
 const staticPath = path.posix.join(config.dev.assetsPublicPath, config.dev.assetsSubDirectory)
 app.use(staticPath, express.static('./static'))
 
+
+
 const uri = 'http://localhost:' + port
 
 var _resolve
@@ -90,7 +103,7 @@ devMiddleware.waitUntilValid(() => {
     console.log('> Listening at ' + uri + '\n')
     // when env is testing, don't need open it
     if (autoOpenBrowser && process.env.NODE_ENV !== 'testing') {
-      opn(uri,{app: 'chrome'})
+      opn(uri, { app: 'chrome' })
     }
     server = app.listen(port)
     _resolve()

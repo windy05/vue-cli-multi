@@ -1,12 +1,12 @@
 {
-  "name": "cms_exhibition",
+  "name": "vue-cli-multi",
   "version": "1.0.0",
   "description": "A Vue.js project",
   "author": "Lunatic Clark <13760798@qq.com>",
   "private": true,
   "scripts": {
     "dev": "node build/dev-server.js",
-    "start": "npm run dev",
+    "start": "node build/dev-runner.js",
     "build": "node build/build.js",
     "static": "node mock/static/server.js",
     "dynamic": "node mock/dynamic/server.js",
@@ -54,7 +54,8 @@
     "webpack": "^3.6.0",
     "webpack-dev-middleware": "^1.12.0",
     "webpack-hot-middleware": "^2.18.2",
-    "webpack-merge": "^4.1.0"
+    "webpack-merge": "^4.1.0",
+    "tree-kill": "^1.1.0"
   },
   "engines": {
     "node": ">= 4.0.0",
