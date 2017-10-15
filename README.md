@@ -13,6 +13,10 @@ cd vue-cli-multi
 
 npm install
 
+系统启动
+
+npm start
+
 开发启动
 
 npm run dev
@@ -24,6 +28,9 @@ npm run build
 mock服务启动
 
 npm run mock
+
+
+
 
 ```
 
